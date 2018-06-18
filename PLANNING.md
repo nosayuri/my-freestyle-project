@@ -5,12 +5,16 @@ Recipes Adviser
 ## Problem Statement
 
 Primary User
+
 A person who wants to cook something different at home with the ingredients he/she already has in the fridge
 
 User Need Statement
+
 This user has some ingredients in the fridge, but don't know how to combine them into a good recipe. This person doesn't want to buy new ingredients yet because he/she wants to make the most from what it's already available, saving money and time. It would be helpful to have an app where the user can input the ingredients and the output is a complete recipe using as many of the given ingredients as possible.
 
+
 As-is Process Description
+
 1. Access an API with a large database of recipes
 2. Get the user input of ingredients
 3. Make a request to the API to search for matching recipes
@@ -20,7 +24,9 @@ As-is Process Description
 6. Output is the complete recipe with ingredients and instructions
 7. Record the result into a .txt file, creating his own Cookbook
 
+
 To-be Process Description
+
 1. Get user inputs (ingredients)
 2. Run a script with an API request to get the list of matching recipes
 3. Get user input (choosen recipe)
